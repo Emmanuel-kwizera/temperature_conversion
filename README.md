@@ -70,7 +70,7 @@ flutter run
 The conversion logic is isolated in `logic/conversion_logic.dart`:
 
 ```dart
-double result = isFtoC ? (input - 32) * 5 / 9 : (input * 9 / 5) + 32;
+double result = convertToCelsius ? (input - 32) * 5 / 9 : (input * 9 / 5) + 32;
 ```
 
 ---
